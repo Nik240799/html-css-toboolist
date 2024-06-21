@@ -3,3 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*layout*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+.page-header {
+    background-color: #ffffff;
+    padding: 10px 22px;
+}
+
+.page-header * {
+    vertical-align: middle;
+}
+
+/*page-content*/
+
+.page-content {
+    background-color: #efefef;
+    padding: 20px;
+}
+
+.buttons {
+    padding-left: 30px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+}
+
+.Button {
+    padding: 3px 10px;
+    margin: 5px 2px;
+    border-radius: 10%;
+
+}
+
+.Task-list {
+    margin-top: 2px;
+    background-color: #ffffff;
+}
+
+.Add-task {
+    background-color: rgb(20, 170, 245);
+
+}
+
+.Add-section {
+    background-color: white;
+    border-color: #efefef;
+}
+
+ul {
+    list-style-type: none;
+}
